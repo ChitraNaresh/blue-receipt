@@ -93,6 +93,7 @@ p{
 .tabDetailItemText1Active{
     color: #0083ff;
     font-weight: 600;
+    font-size: 15px;
 }
 .tabDetailItemText1{}
 .tabDetailItemText2{}
@@ -107,6 +108,10 @@ p{
 
 .indicatorBlock{
     width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
 }
 .indicatorLevelBlock{}
 .indicatorLevel{
@@ -124,4 +129,60 @@ p{
     color: #000;
     font-weight: 700;
     font-size: 20px;
+}
+
+@media only screen and (max-width:768px) {
+    .tabsContainer{
+        flex-direction: column;
+        align-items: normal;
+    }
+    .tabsSection{
+        width: 100%;
+        
+    }
+    .tabsListBlock{
+        flex-direction: column;
+        align-items: none;
+        padding: 10px 0 0 0px;
+    }
+    .tabItemActive,.tabItem{
+        width: 100%;
+    }
+    .tabsDateItem{
+        max-width: 100%;
+        padding: 5px 20px;
+        margin-top: 10px;
+
+    }
+    .tabsDetailBlock{
+    }
+    .tabDetailItem{
+        padding: 10px;
+    }
+    .tabDetailItemImgBlock{
+        height: 30px;
+        width: 30px;
+    }
+    .tabDetailItemSection1{
+        gap: 8px;
+    }
+    .tabDetailItemContentBlock{
+        align-items: flex-start;
+        font-size: 12px;
+    }
+    .tabDetailItemText1Active{
+        font-size: 13px;
+    }
+    .tabDetailItemSection2{
+        font-size: 12px;
+    }
+    .indicatorBlock{
+        width: 100%;
+    }
+    .indicatorLevel{
+        font-size: 20px;
+    }
+    .indicatorDetails{
+        font-size: 14px;
+    }
 }

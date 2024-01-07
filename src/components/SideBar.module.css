@@ -86,6 +86,7 @@ p{
 .sideBarListItem{
     display: flex;
     gap: 12px;
+    cursor: pointer;
 }
 .sideBarListItemLogo{}
 .sideBarListItemHeader{}
@@ -116,3 +117,59 @@ p{
 }
 .sideBarProfileBlockName{}
 .sideBarProfileBlockDescription{}
+
+@media only screen and (max-width:768px) {
+    .sideBarContainer{
+        width: 100%;
+        padding: 30px 20px;
+        border: none;
+        
+    }
+    .sideBarBlockOne{
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: space-between;
+    }
+    .sideBarLogoBlock{
+        gap: 5px;
+        width: auto;
+    }
+    .sideBarLogoBlockHeader{
+        font-size: 18px;
+    }
+    .sideBarSearchBlock,.sideBarDashboardBlock{
+        width: auto;
+        padding: 10px 20px 10px 10px;
+        gap: 7px;
+        font-size: 13px;
+    }
+    .sideBarDashboardBlockImg,.sideBarSearchBlockIcon{
+        width: 15px;
+        height: 15px;
+    }
+    .sideBarBlockTwo{
+        flex-direction: row;
+        padding: 15px 0;
+        justify-content: space-between;
+       
+    }
+    .sideBarListItemsBlock{
+        width: 100%;
+        padding: 0 0 ;
+        flex-direction: row;
+        justify-content: flex-start;
+        gap: 10px;
+    }
+    .sideBarListItemHeader{
+        display: none;
+    }
+    .sideBarProfileBlock{
+        gap: 12px;
+        width: 60%;
+    }
+    .sideBarProfileTextBlock{
+        gap: 3px;
+        font-size: 13px;
+    }
+}

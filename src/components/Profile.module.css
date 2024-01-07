@@ -39,7 +39,11 @@ p{
     align-items: flex-start;
     gap: 8px;
 }
-.profileHeaderOne{}
+.profileHeaderOne{
+    font-weight: 700;
+    color: #000;
+    font-size: 20px;
+}
 .profileHeaderTwo{}
 .durationBlock{
     display: flex;
@@ -116,4 +120,61 @@ p{
 .parameterDetails{
     opacity: 0.7;
     font-size: 14px;
+}
+@media only screen and (max-width:768px) {
+    
+    .profileSectionOne{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .profileDetailsBlock{
+        gap: 15px;
+    }
+    .profileImgBlock{
+        width: 40px;
+        height: 40px;
+    }
+    .profileContentBlock{
+        gap: 4px;
+        
+    }
+    .profileHeaderOne{
+        font-size: 18px;
+    }
+    .profileHeaderTwo{
+        font-size: 14px;
+    }
+    .durationBlock{
+        justify-content: space-between;
+        width: 100%;
+    }
+    .calenderBlock,.dateBlock{
+        font-size: 15px;
+        padding: 8px 10px;
+    }
+    .calenderIcon,.dateIcon{
+        height: 15px;
+        width: 15px;
+    }
+    .durationTextItem{
+        font-size: 14px;
+    }
+    .profileSectionTwo{
+        flex-direction: column;
+        justify-content: center;
+        gap: 25px;
+        padding: 20px 0;
+    }
+    .parameterSection{
+        width: 100%;
+        align-items: center;
+        gap: 3px;
+    }
+    .parameterSection:not(:first-child) {
+        width: 100%;
+        padding: 8px 0 0 0;
+        border-left: none;
+        border-top: 1px solid #ecedf2 ;
+    }
+    
 }
