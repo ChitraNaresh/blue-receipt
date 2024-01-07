@@ -1,0 +1,15 @@
+.mainContainer{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.blockOne{
+    width: 20%;
+}
+.blockTwo{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 25px ;
+    gap: 35px;
+}

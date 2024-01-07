@@ -1,0 +1,127 @@
+
+.tabsContainer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+
+.tabsSection{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.tabsListBlock{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.tabItemActive{
+    border-bottom: 2px solid blue;
+    padding: 10px 0px;
+    width: 25%;
+    cursor: pointer;
+}
+.tabItem{
+    opacity: 0.6;
+    border-bottom: 1.5px solid gray;
+    width: 25%;
+    padding: 10px 0px;
+    cursor: pointer;
+}
+.tabsDateItem{
+    border-radius: 25px;
+    border: 1px solid gray;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    cursor: pointer;
+}
+.tabItem:hover{
+    background-color: #f8f9fe;
+    border-radius: 25px;
+}
+.tabsDateItemText{}
+.tabsDateItemImg{}
+.tabsDetailBlock{
+    
+}
+
+.tabDetailItem{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+        padding: 12px 20px;
+        border-radius: 25px;
+        cursor: pointer;
+}
+.tabDetailItem:hover{
+    background-color: #f8f9fe;
+}
+.tabDetailItemSection1{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.tabDetailItemImgBlock{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 1px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tabDetailItemImg{
+    
+}
+.tabDetailItemContentBlock{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    font-size: 14px;
+}
+.tabDetailItemText1Active{
+    color: #0083ff;
+    font-weight: 600;
+}
+.tabDetailItemText1{}
+.tabDetailItemText2{}
+.tabDetailItemSection2{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    font-size: 14px;
+}
+.tabDetailItemText3{}
+.tabDetailItemText4{}
+
+.indicatorBlock{
+    width: 30%;
+}
+.indicatorLevelBlock{}
+.indicatorLevel{
+    color: #0083ff;
+    font-weight: 700;
+    font-size: 22px;
+}
+.indicatorLevelIcon{}
+.indicatorDetails{
+    opacity: 0.7;
+    font-size: 15px;
+}
+.indicatorImage{}
+.indicatorPrice{
+    color: #000;
+    font-weight: 700;
+    font-size: 20px;
+}

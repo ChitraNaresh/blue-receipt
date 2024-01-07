@@ -1,0 +1,118 @@
+
+.sideBarContainer{
+    width: 75%;
+    border-right: 1px solid #eaedf6;
+    padding: 30px 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+img{
+    max-width: 20px;
+}
+p{
+    padding: 0;
+    margin: 0;
+}
+.sideBarBlockOne{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+    padding: 0px 0 15px 0;
+    border-bottom: 1.5px solid #eaedf6;
+}
+.sideBarLogoBlock{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+.sideBarLogoBlockImg{
+    height: 20px;
+    width: 20px;
+}
+.sideBarLogoBlockHeader{
+    color: #1f294b;
+    font-weight: 600;
+    font-size: 24px;
+}
+.sideBarSearchBlock{
+    display: flex;
+    align-items: center;
+    padding: 10px 10px;
+    gap: 15px;
+    background-color: #f8f9fe;
+    border-radius: 30px;
+    width: 100%;
+}
+.sideBarSearchBlockIcon{
+    height: 20px;
+    width: 20px;
+}
+.sideBarSearchBlockHeader{}
+.sideBarDashboardBlock{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 10px;
+    gap: 15px;
+    background-color: #ebf5ff;
+    border-radius: 30px;
+    width: 100%;
+}
+.sideBarDashboardBlockImg{
+    height: 20px;
+    width: 20px;
+}
+.sideBarDashboardBlockHeader{}
+
+.sideBarBlockTwo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 14px;
+
+}
+.sideBarListItemsBlock{
+     display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    padding: 30px 30px;
+}
+.sideBarListItem{
+    display: flex;
+    gap: 12px;
+}
+.sideBarListItemLogo{}
+.sideBarListItemHeader{}
+
+.sideBarProfileBlock{
+    display: flex;
+    gap: 18px;
+    width: 100%;
+    align-items: center;
+}
+.sideBarProfileImgBlock{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #fedbba;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sideBarProfileImg{
+    
+}
+.sideBarProfileTextBlock{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    align-items: flex-start;
+}
+.sideBarProfileBlockName{}
+.sideBarProfileBlockDescription{}

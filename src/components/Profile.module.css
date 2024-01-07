@@ -1,0 +1,119 @@
+
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+}
+
+.profileSectionOne{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.profileDetailsBlock{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.profileImgBlock{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #feddbb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #e4e6f4;
+}
+.profileImage{}
+.profileContentBlock{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+.profileHeaderOne{}
+.profileHeaderTwo{}
+.durationBlock{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.calenderBlock{
+    border: 1px solid #ecedf2;
+    border-radius: 30px;
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+}
+.calenderIcon{}
+.calenderHeader{}
+.durationTextItem{}
+.dateBlock{
+     border: 1px solid #ecedf2;
+    border-radius: 30px;
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+}
+.dateHeader{}
+.dateIcon{}
+
+.profileSectionTwo{
+    display: flex;
+    width: 100%;
+}
+.parameterSection{
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+    
+}
+.parameterSection:not(:first-child) {
+    width: 26%;
+  border-left: 1px solid #ecedf2;
+  padding: 0 0 0 15px;
+}
+.parameterHeaderBlock{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.parameterType{
+    opacity: 0.7;
+    font-size: 15px;
+}
+.parameterPercentage{
+    border-radius: 25px;
+    background-color: #ebf6f0;
+    color: #45856a;
+    padding:4px 6px;
+}
+.parameterPercentageNeg{
+      border-radius: 25px;
+    background-color: #fbefef;
+    color: #ce4744;
+    padding:4px 6px;
+}
+.parameterValue{
+    font-size: 35px;
+    font-weight: 700;
+    color: #000;
+}
+.parameterDetails{
+    opacity: 0.7;
+    font-size: 14px;
+}
